@@ -754,7 +754,7 @@
         z-index: 2000;
     }
 
-    .Bottom {
+    #Bottom {
         animation: 1000s fall-url linear 6s;
         z-index: 2000;
     }
@@ -964,7 +964,7 @@
             animation: 1000s ChatBox linear 7.6s;
             z-index: 2000;
         }
-        .Bottom {
+        #Bottom {
             animation: 1000s Bottom linear 10s;
             z-index: 2000;
         }
