@@ -739,25 +739,22 @@
         z-index: 2000;
     }
 
-    .commentDiv {
+    .GameBox {
         animation: 1000s fall-commentDiv linear 8s;
         z-index: 2001;
     }
 
-    .subject>span,
-    .subject>a {
+    .kkutu-menu {
         animation: 1000s fall-subject linear 7s;
         z-index: 2000;
     }
 
-    .article_writer>a,
-    .article_writer>.bar2,
-    .article_writer>.p11 {
+    .ADBox {
         animation: 1000s fall-writer linear 6s;
         z-index: 2000;
     }
 
-    .article_writer>.txt_sub {
+    .Bottom {
         animation: 1000s fall-url linear 6s;
         z-index: 2000;
     }
@@ -778,18 +775,12 @@
         animation: 1000s remove-border linear 7s;
     }
 
-    .prenext_paging {
+    .ChatBox {
         animation: 1000s fall-paging linear 6s;
         z-index: 2000;
     }
 
-    #daum-ad-root-ifrm,
-    .goTop,
-    #footer {
-        display: none;
-    }
-
-    #minidaum {
+    #Top {
         animation: 1000s fall-minidaum linear 6s;
         z-index: 2000;
     }
@@ -807,11 +798,11 @@
 
     .sigong .sigong_detail1 {
         position: absolute;
-        background-image: url('/zzal/sigong/bg.png');
+        background-image: url('http://kkutu.co.kr/zzal/sigong/bg.png');
     }
 
     .sigong .sigong_detail2 {
-        background-image: url('/zzal/sigong/spin.png');
+        background-image: url('http://kkutu.co.kr/zzal/sigong/spin.png');
         animation: spin 1000s linear infinite;
     }
 
@@ -828,7 +819,7 @@
     }
 
     .hos {
-        background-image: url(/zzal/sigong/hos.png);
+        background-image: url('http://kkutu.co.kr/zzal/sigong/hos.png');
         background-size: contain;
         background-position: center;
     }
@@ -847,7 +838,7 @@
             right: 50%;
             margin-top: -100px;
             animation: scale-up 1000s linear infinite;
-            z-index: 1000;
+            z-index: 4000;
         }
         .hos {
             opacity: 0;
@@ -878,50 +869,6 @@
             }
             2.5% {
                 transform: scale(0.21) translate(33%, -47%)
-            }
-            100% {}
-        }
-        @keyframes mobile_comment1 {
-            0% {}
-            0.5% {
-                transform: translate(0, -100px) scale(0.4) rotate(-225deg);
-                opacity: 1;
-            }
-            0.55% {
-                opacity: 0;
-            }
-            100% {}
-        }
-        @keyframes mobile_comment2 {
-            0% {}
-            0.5% {
-                transform: translate(0, -200px) scale(0.4) rotate(-45deg);
-                opacity: 1;
-            }
-            0.55% {
-                opacity: 0;
-            }
-            100% {}
-        }
-        @keyframes mobile_comment3 {
-            0% {}
-            0.5% {
-                transform: translate(0, -300%) scale(0.4) rotate(70deg);
-                opacity: 1;
-            }
-            0.55% {
-                opacity: 0;
-            }
-            100% {}
-        }
-        @keyframes mobile_comment4 {
-            0% {}
-            0.5% {
-                transform: translate(0, -400%) scale(0.4) rotate(-80deg);
-                opacity: 1;
-            }
-            0.55% {
-                opacity: 0;
             }
             100% {}
         }
@@ -991,19 +938,6 @@
             }
             100% {}
         }
-        @keyframes fall-nickzzal {
-            0% {}
-            0.5% {
-                transform: translate(120px, 150px) rotate(200deg) rotateX(60deg) rotateY(60deg) scale(0.2);
-                opacity: 1;
-            }
-            0.55% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
         html,
         body {
             overflow: hidden;
@@ -1014,7 +948,7 @@
         .sigong {
             animation: scale-up 1000s linear infinite;
             width: 100%;
-            z-index: 1000;
+            z-index: 4000;
             display: table-cell;
         }
         .hos {
@@ -1024,35 +958,6 @@
             opacity: 0;
             z-index: -1;
             animation: 1000s appear-hos linear 23s;
-        }
-        .mobilebox {
-            position: absolute;
-            display: table;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 375px;
-            vertical-align: middle;
-        }
-        .list_cmt>li:nth-child(1) {
-            position: relative;
-            animation: 1000s mobile_comment1 linear 6s;
-            z-index: 2000;
-        }
-        .list_cmt>li:nth-child(2) {
-            position: relative;
-            animation: 1000s mobile_comment2 linear 6.4s;
-            z-index: 2000;
-        }
-        .list_cmt>li:nth-child(3) {
-            position: relative;
-            animation: 1000s mobile_comment3 linear 6.8s;
-            z-index: 2000;
-        }
-        .list_cmt>li:nth-child(4) {
-            position: relative;
-            animation: 1000s mobile_comment4 linear 7.2s;
-            z-index: 2000;
         }
         .ChatBox {
             position: relative;
