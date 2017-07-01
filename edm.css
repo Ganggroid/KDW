@@ -1,0 +1,328 @@
+
+    /* ================================================================================================
+																															KEYFRAMES
+================================================================================================ */
+
+    @keyframes shake {
+        2% {
+            transform: translate(-0.5px, -0.5px) scale(1.15);
+        }
+        4% {
+            transform: translate(2.5px, -1.3px)scale(0.9);
+        }
+        6% {
+            transform: translate(2.5px, 0.5px) scale(1.3);
+        }
+        8% {
+            transform: translate(-0.5px, 2.5px)scale(0.9);
+        }
+        10% {
+            transform: translate(1.3px, -0.5px) scale(1.3);
+        }
+        12% {
+            transform: translate(0.5px, -1.3px)scale(0.9);
+        }
+        14% {
+            transform: translate(0.5px, -1.3px) scale(1.15);
+        }
+        16% {
+            transform: translate(-0.5px, 0.5px) scale(1.15);
+        }
+        18% {
+            transform: translate(-1.3px, 1.3px) scale(1.15);
+        }
+        20% {
+            transform: translate(-0.5px, -1.3px)scale(0.9);
+        }
+        22% {
+            transform: translate(1.3px, 1.3px) scale(1.15);
+        }
+        24% {
+            transform: translate(-1.3px, 2.5px) scale(1.3);
+        }
+        26% {
+            transform: translate(-0.5px, 0.5px) scale(1.15);
+        }
+        28% {
+            transform: translate(-1.3px, 1.3px)scale(0.9);
+        }
+        30% {
+            transform: translate(1.3px, 0.5px) scale(1.15);
+        }
+        32% {
+            transform: translate(1.3px, -0.5px) scale(1.15);
+        }
+        34% {
+            transform: translate(2.5px, 1.3px)scale(0.9);
+        }
+        36% {
+            transform: translate(-1.3px, -0.5px)scale(0.9);
+        }
+        38% {
+            transform: translate(1.3px, 2.5px)scale(0.9);
+        }
+        40% {
+            transform: translate(-0.5px, -1.3px) scale(1.15);
+        }
+        42% {
+            transform: translate(0.5px, 0.5px) scale(1.15);
+        }
+        44% {
+            transform: translate(1.3px, 1.3px)scale(0.9);
+        }
+        46% {
+            transform: translate(-1.3px, 0.5px)scale(0.9);
+        }
+        48% {
+            transform: translate(1.3px, 1.3px) scale(1.3);
+        }
+        50% {
+            transform: translate(0.5px, -0.5px) scale(1.15);
+        }
+        52% {
+            transform: translate(-0.5px, 0.5px) scale(1.3);
+        }
+        54% {
+            transform: translate(1.3px, -1.3px) scale(1.15);
+        }
+        56% {
+            transform: translate(-0.5px, -1.3px) scale(1.3);
+        }
+        58% {
+            transform: translate(2.5px, 1.3px) scale(1.15);
+        }
+        60% {
+            transform: translate(-0.5px, -0.5px) scale(1.3);
+        }
+        62% {
+            transform: translate(1.3px, 2.5px)scale(0.9);
+        }
+        64% {
+            transform: translate(-1.3px, 0.5px)scale(0.9);
+        }
+        66% {
+            transform: translate(2.5px, 1.3px)scale(0.9);
+        }
+        68% {
+            transform: translate(2.5px, 0.5px) scale(1.3);
+        }
+        70% {
+            transform: translate(-1.3px, -1.3px) scale(1.15);
+        }
+        72% {
+            transform: translate(-1.3px, -0.5px)scale(0.9);
+        }
+        74% {
+            transform: translate(-0.5px, -1.3px) scale(1.3);
+        }
+        76% {
+            transform: translate(1.3px, 1.3px) scale(1.15);
+        }
+        78% {
+            transform: translate(1.3px, -0.5px) scale(1.3);
+        }
+        80% {
+            transform: translate(-0.5px, 1.3px) scale(1.3);
+        }
+        82% {
+            transform: translate(2.5px, 2.5px) scale(1.15);
+        }
+        84% {
+            transform: translate(-0.5px, 0.5px) scale(1.3);
+        }
+        86% {
+            transform: translate(1.3px, -0.5px) scale(1.3);
+        }
+        88% {
+            transform: translate(2.5px, -1.3px) scale(1.15);
+        }
+        90% {
+            transform: translate(0.5px, -1.3px)scale(0.9);
+        }
+        92% {
+            transform: translate(-0.5px, -1.3px) scale(1.3);
+        }
+        94% {
+            transform: translate(2.5px, 0.5px) scale(1.3);
+        }
+        96% {
+            transform: translate(-0.5px, -1.3px)scale(0.9);
+        }
+        98% {
+            transform: translate(-0.5px, -1.3px) scale(1.15);
+        }
+        0%,
+        100% {
+            transform: translate(0, 0) rotate(0);
+        }
+    }
+
+
+    @keyframes shake-little {
+        2% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        4% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        6% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        8% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        10% {
+            transform: translate(2px, 0px) scale(1.15);
+        }
+        12% {
+            transform: translate(0px, 2px) scale(1.15);
+        }
+        14% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        16% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        18% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        20% {
+            transform: translate(2px, 0px) scale(1.15);
+        }
+        22% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        24% {
+            transform: translate(0px, 2px) scale(1.15);
+        }
+        26% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        28% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        30% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        32% {
+            transform: translate(2px, 0px) scale(1.15);
+        }
+        34% {
+            transform: translate(2px, 0px) scale(1.15);
+        }
+        36% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        38% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        40% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        42% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        44% {
+            transform: translate(2px, 0px) scale(1.15);
+        }
+        46% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        48% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        50% {
+            transform: translate(2px, 0px) scale(1.15);
+        }
+        52% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        54% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        56% {
+            transform: translate(2px, 0px) scale(1.15);
+        }
+        58% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        60% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        62% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        64% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        66% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        68% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        70% {
+            transform: translate(2px, 0px) scale(1.15);
+        }
+        72% {
+            transform: translate(2px, 0px) scale(1.15);
+        }
+        74% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        76% {
+            transform: translate(0px, 2px) scale(1.15);
+        }
+        78% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        80% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        82% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        84% {
+            transform: translate(0px, 0px) scale(1.15);
+        }
+        86% {
+            transform: translate(2px, 0px) scale(1.15);
+        }
+        88% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        90% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        92% {
+            transform: translate(2px, 0px) scale(1.15);
+        }
+        94% {
+            transform: translate(2px, 0px) scale(1.15);
+        }
+        96% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        98% {
+            transform: translate(2px, 2px) scale(1.15);
+        }
+        0%,
+        100% {
+            transform: translate(0, 0) rotate(0);
+        }
+    }
+    html {
+        animation-name: shake;
+        animation-duration: 54s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-delay: 3s;
+    }
+
+    body {
+        animation-name: shake-little;
+        animation-duration: 54s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-delay: 3s;
+    }
