@@ -1,0 +1,2 @@
+$('body').append('<audio autoplay="true" controls="" class="attach_audio" src="http://kkutu.co.kr/zzal/sigong/sigongsigong.mp3"></audio>');
+$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '//ganggroid.github.io/KDW/edm.css') );
