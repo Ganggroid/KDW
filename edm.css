@@ -313,16 +313,16 @@
     }
     html {
         animation-name: shake;
-        animation-duration: 100ms;
+        animation-duration: 54s;
         animation-timing-function: ease-in-out;
-        animation-iteration-count: 190;
-        animation-delay: 54s;
+        animation-iteration-count: 1;
+        animation-delay: 3s;
     }
 
     body {
         animation-name: shake-little;
-        animation-duration: 100ms;
+        animation-duration: 54s;
         animation-timing-function: ease-in-out;
-        animation-iteration-count: 245;
-        animation-delay: 54s;
+        animation-iteration-count: 1;
+        animation-delay: 3s;
     }
