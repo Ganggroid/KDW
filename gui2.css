@@ -1,0 +1,29 @@
+.game-user-image {
+    width: 50px;
+    height: 50px;
+}
+.game-user-name {
+    width: 37px;
+    height:10px;
+    font-size: 5px;
+}
+.game-user-level {
+    margin: 1px;
+    width: 8px;
+    height: 8px;
+}
+.game-user {
+    padding: 1px;
+    width: 60px;
+    height: 87px
+}
+.game-user-current{
+height:87px;
+}
+.game-user-score {
+    width: 50px;
+    font-size: 10px;
+}
+.game-user-score-char {
+    width: 10px;
+}
