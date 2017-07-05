@@ -798,11 +798,11 @@
 
     .sigong .sigong_detail1 {
         position: absolute;
-        background-image: url('http://kkutu.co.kr/zzal/sigong/bg.png');
+        background-image: url('//ganggroid.github.io/KDW/bg.png');
     }
 
     .sigong .sigong_detail2 {
-        background-image: url('http://kkutu.co.kr/zzal/sigong/spin.png');
+        background-image: url('//ganggroid.github.io/KDW/spin.png');
         animation: spin 1000s linear infinite;
     }
 
@@ -819,7 +819,7 @@
     }
 
     .hos {
-        background-image: url('http://kkutu.co.kr/zzal/sigong/hos.png');
+        background-image: url('//ganggroid.github.io/KDW/hos.png');
         background-size: contain;
         background-position: center;
     }
@@ -834,11 +834,11 @@
     @media screen and (min-width: 480px) {
         /* vw>480px */
         .sigong {
-            position: absolute;
-            right: 50%;
-            margin-top: -100px;
-            animation: scale-up 1000s linear infinite;
-            z-index: 4000;
+		position: absolute;
+		right: 50%;
+		margin-top: -100px;
+		animation: scale-up 1000s linear infinite;
+		z-index: 5000;
         }
         .hos {
             opacity: 0;
@@ -943,7 +943,14 @@
             overflow: hidden;
         }
         .sigong div {
-            width: 100%;
+	    width: 300px;
+	    height: 300px;
+	    min-width: 300px;
+	    top: 500px;
+	    left: 500px;
+	    background-size: contain;
+	    background-position: center;
+	    background-repeat: no-repeat;
         }
         .sigong {
             animation: scale-up 1000s linear infinite;
