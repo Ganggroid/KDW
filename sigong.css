@@ -744,6 +744,16 @@
         z-index: 2001;
     }
 
+    .RoomBox {
+        animation: 1000s fall-commentDiv linear 8s;
+        z-index: 2001;
+    }
+
+    .MeBox {
+        animation: 1000s fall-commentDiv linear 8s;
+        z-index: 2001;
+    }
+
     .kkutu-menu {
         animation: 1000s fall-subject linear 7s;
         z-index: 2000;
