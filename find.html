@@ -1,0 +1,74 @@
+<html>
+
+<head>
+	<title>YES 24 찾기</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<style>
+		#text {
+			width: 80%;
+			float: left;
+			height: 40px;
+		}
+
+		#find {
+			width: 20%;
+			float: left;
+			height: 40px;
+		}
+	</style>
+</head>
+
+<body>
+	<input class="form-control" id="text">
+	<button class="button button-success" id="find">검색하기</button>
+	<div id="result"></div>
+	<div id="result_list"></div>
+	<script>
+		$("#find").click(function() {
+			$.getJSON("http://www.yes24.com/SearchCorner/Sniper/GetSniperSearch?Parsing=true&Domain=0&Page=0&PageSize=3&Query="+trans($("#text").val()),function(data){
+				if(data.TotalCount>0){
+					$("#result").text("찾았습니다!"+TotalCount+"개 검색 완료");
+					$("#result_list").empty();
+					for(var i=0;i<data.List.length;i++){
+						var item = data.List[i];
+						$("#result_list").append($item=$("div").addClass("result-item"));
+						$item.append($("h2").addClass("result-item-title").html(detrans(item.GOODS_NM)).attr("href",item.GOODS_NO));
+					}
+				}
+				else{
+					$("#result").text("못찾았습니다 T.T");
+					$("#result_list").empty();
+				}
+			});
+		});
+		$("#text").keydown(function(event) {
+			if (event.keyCode == 13) {
+				console.log("keydown");
+				$("#find").click();
+			}
+		});
+
+		function trans(str) {
+			return encodeURI(replaceAll(escape(str), "%", "\\"));
+		}
+
+		function detrans(str) {
+			return unescape(replaceAll(str, "\\", "%"));
+		}
+
+		function replaceAll(strTemp, strValue1, strValue2) {
+			while (true) {
+				if (strTemp.indexOf(strValue1) != -1) {
+					strTemp = strTemp.replace(strValue1, strValue2);
+				} else {
+					break;
+				}
+			}
+			return strTemp;
+		}
+	</script>
+</body>
+
+</html>
