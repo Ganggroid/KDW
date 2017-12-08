@@ -808,11 +808,11 @@
 
     .sigong .sigong_detail1 {
         position: absolute;
-        background-image: url('//ganggroid.github.io/KDW/bg.png');
+        background-image: url('//kim-daewoon.github.io/KDW/bg.png');
     }
 
     .sigong .sigong_detail2 {
-        background-image: url('//ganggroid.github.io/KDW/spin.png');
+        background-image: url('//kim-daewoon.github.io/KDW/spin.png');
         animation: spin 1000s linear infinite;
     }
 
@@ -829,7 +829,7 @@
     }
 
     .hos {
-        background-image: url('//ganggroid.github.io/KDW/hos.png');
+        background-image: url('//kim-daewoon.github.io/KDW/hos.png');
         background-size: contain;
         background-position: center;
     }
