@@ -1,2 +1,2 @@
 $('body').append('<div class="sigong"><div class="sigong_detail1"></div><div class="sigong_detail2"></div></div><div class="hos"></div><div style="display: none;"><audio autoplay="true" controls="" class="attach_audio" src="http://cdh0912.github.io/assets/files/시공의 폭풍은 정말 최고야.mp3" type="audio/mpeg"></audio><audio autoplay="true" controls="" class="attach_audio" src="http://cdh0912.github.io/assets/files/시공좋아시공좋아.mp3" type="audio/mpeg"></audio></div>');
-$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '//kim-daewoon.github.io/KDW/sigong.css') );
+$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '//kdwkr.github.io/KDW/sigong.css') );
